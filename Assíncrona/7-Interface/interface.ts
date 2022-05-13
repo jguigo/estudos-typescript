@@ -15,7 +15,7 @@ function getUser(): Usuario { //então eu estou dizendo que aqui ele vai me reto
    }
 };
 
-function setUser(usuario: Usuario){ //aqui eu estou dizendo que ele vai recerber um tipo usuário!
+function setUser(usuario: Usuario){ //aqui eu estou dizendo que ele vai recerber como parâmetro um tipo usuário!
    // ...
 }
 
