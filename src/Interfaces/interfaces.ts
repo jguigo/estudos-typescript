@@ -42,3 +42,26 @@ function novaLojaInterface({nome, endereco, status}:ILojaProps){ //quando eu col
 }
 
 novaLojaInterface({nome: 'Subway', endereco: 'Minha rua', status:true});
+
+
+//Interfaces também podem ter multiplas declarações! Por exemplo:
+//Interfaces também podem ter multiplas declarações! Por exemplo:
+//Interfaces também podem ter multiplas declarações! Por exemplo:
+
+interface IMuitasDeclaracoes{
+   prop1: string;
+}
+
+interface IMuitasDeclaracoes{
+   prop2: string;
+}
+
+interface IMuitasDeclaracoes{
+   prop3: string;
+}
+
+const testeInterface: IMuitasDeclaracoes = {
+   prop1: "", //com isso podemos perceber que além dela ter multiplas declarações, ela vai unir tudo no mesmo nome! 
+   prop2: "",
+   prop3: ""
+}
